@@ -107,7 +107,7 @@
                                                  &mo 3               &kp TAB           &lt 1 SPACE  &mkp MB1  &mkp MB2  &ltq 2 BACKSPACE  &mo 4              &ext_power EP_TOG    &kp C_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
             label = "Qwer";
         };
 
