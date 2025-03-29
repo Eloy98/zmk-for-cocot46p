@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: cocot46p}
 layers:
   Qwer:
   - $$mdi:keyboard-esc$$
@@ -44,7 +45,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: '$$mdi:backspace$$', h: Raise}
-  - RIGHT GUI
+  - Snipe
   - EP TOG
   - $$mdi:volume-off$$
   Lower:
@@ -236,7 +237,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
